@@ -1,0 +1,50 @@
+.frameServices,
+.serviceGrid {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frameServices {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-1000);
+  border: 1px dashed var(--color-blueviolet-100);
+  overflow-y: auto;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-3xs);
+  gap: var(--gap-81xl);
+  max-width: 100%;
+}
+.serviceGrid {
+  width: 4520px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-142xl);
+  min-height: 705px;
+  max-width: 308%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1450px) {
+  .frameServices {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameServices {
+    gap: var(--gap-31xl);
+  }
+  .serviceGrid {
+    padding-bottom: var(--padding-86xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameServices {
+    gap: var(--gap-6xl);
+  }
+}

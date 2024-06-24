@@ -1,0 +1,68 @@
+.blankLine,
+.trainingDevelopment {
+  margin: 0;
+}
+.weTrainYour {
+  line-height: 34px;
+}
+.weTrainYourEmployeesToDev {
+  margin: 0;
+  color: var(--color-gray-500);
+}
+.trainingDevelopmentContainer {
+  align-self: stretch;
+  position: relative;
+}
+.trainingDevelopmentWeTraiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) 0 0;
+  box-sizing: border-box;
+  min-width: 281px;
+  max-width: 100%;
+}
+.serviceTrainingDevelopementIcon {
+  width: 368px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.property1variant4 {
+  width: 950px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-51xl) var(--padding-36xl) var(--padding-24xl);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  max-width: calc(100% - 4923px);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .property1variant4 {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .serviceTrainingDevelopementIcon {
+    flex: 1;
+  }
+  .property1variant4 {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

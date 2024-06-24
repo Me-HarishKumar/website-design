@@ -1,0 +1,142 @@
+.serviceHrms1Icon {
+  height: 272px;
+  width: 299px;
+  position: relative;
+  object-fit: cover;
+}
+.hrms {
+  margin: 0;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+}
+.thisIsA {
+  margin: 0;
+  font-size: var(--font-size-base);
+  line-height: 34px;
+  color: var(--color-gray-400);
+}
+.hrmsThisIsContainer {
+  height: 201px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 330px;
+  max-width: 100%;
+}
+.groupHtms {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  max-width: 104%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.webDesign2 {
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue-200);
+}
+.webDesign1 {
+  margin: 0;
+}
+.blankLine2 {
+  font-size: var(--font-size-xl);
+}
+.blankLine1 {
+  margin: 0;
+}
+.theDifferentAreas {
+  line-height: 34px;
+}
+.theDifferentAreasOfWebDes {
+  margin: 0;
+}
+.webDesignTheContainer {
+  align-self: stretch;
+  height: 217.1px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.webContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  min-width: 327px;
+  max-width: 100%;
+}
+.serviceWebDesign1Icon {
+  height: 273px;
+  width: 271.3px;
+  position: relative;
+  object-fit: cover;
+}
+.groupS1,
+.property1default,
+.reqWebDesign,
+.webDesign {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.reqWebDesign {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs-7);
+}
+.groupS1,
+.property1default,
+.webDesign {
+  box-sizing: border-box;
+}
+.webDesign {
+  width: 786.3px;
+  flex-direction: column;
+  padding: var(--padding-242xl) 0 0;
+  margin-left: -817px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.groupS1,
+.property1default {
+  width: 845px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl) 0 0;
+}
+.property1default {
+  width: 950px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .serviceHrms1Icon {
+    flex: 1;
+  }
+  .groupHtms {
+    flex-wrap: wrap;
+  }
+  .serviceWebDesign1Icon {
+    flex: 1;
+  }
+  .reqWebDesign {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .groupHtms {
+    gap: var(--gap-lgi);
+  }
+}

@@ -1,0 +1,204 @@
+.home,
+.span {
+  white-space: pre-wrap;
+}
+.span {
+  color: var(--color-darkslategray);
+}
+.homeAboutServiceContainer1 {
+  width: 100%;
+}
+.homeAboutServiceContainer {
+  width: 957px;
+  position: absolute;
+  margin: 0 !important;
+  top: -70px;
+  right: 95px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  flex-shrink: 0;
+}
+.homeIcon,
+.logoHeaderRemovebgPreview3Icon {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.homeIcon {
+  width: 626px;
+  height: 568px;
+  position: absolute;
+  margin: 0 !important;
+  right: -601px;
+  bottom: 62px;
+}
+.logoHeaderRemovebgPreview3Icon {
+  align-self: stretch;
+  height: 143px;
+  position: relative;
+  max-width: 100%;
+}
+.designAnOptimal {
+  white-space: pre-wrap;
+}
+.hrSolutions {
+  color: var(--color-red);
+}
+.designAnOptimalContainer1 {
+  width: 100%;
+}
+.designAnOptimalContainer {
+  margin: 0;
+  width: 809px;
+  height: 310px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 10113%;
+}
+.isAlsoCalled,
+.theProcessOf {
+  margin: 0;
+}
+.theProcessOfContainer1 {
+  width: 100%;
+}
+.theProcessOfContainer {
+  margin-left: -810px;
+  width: 744px;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  line-height: 150%;
+  font-weight: 200;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  max-width: 9300%;
+  flex-shrink: 0;
+}
+.homeDescription {
+  width: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+}
+.learnMore {
+  height: calc(100% - 1.9px);
+  width: 230.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1.1px;
+  left: -29.6px;
+  line-height: 150%;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+}
+.button,
+.learnButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.button {
+  height: 64px;
+  width: 189px;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-mini);
+  background-color: var(--color-navy-200);
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-7xs);
+  position: relative;
+  white-space: nowrap;
+}
+.learnButton {
+  width: 477px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-molengo);
+}
+.groupHomeTexts {
+  width: 818px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-48xl);
+  opacity: 0;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameHome,
+.homeContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-358xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-56xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-dm-serif-display);
+}
+.frameHome {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-1097xl) var(--padding-11xl)
+    var(--padding-lgi);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1450px) {
+  .homeContent {
+    padding-right: var(--padding-169xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .groupHomeTexts {
+    gap: var(--gap-14xl);
+  }
+  .frameHome,
+  .homeContent {
+    padding-right: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+  .frameHome {
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-539xl);
+    padding-bottom: var(--padding-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .homeDescription {
+    gap: var(--gap-2xl);
+  }
+  .frameHome,
+  .homeContent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

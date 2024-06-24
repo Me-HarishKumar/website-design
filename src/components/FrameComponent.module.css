@@ -1,0 +1,338 @@
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.emailAddress,
+.fullName,
+.subject,
+.yourMessage {
+  margin: 0;
+}
+.fullNameEmailContainer1 {
+  width: 100%;
+}
+.fullNameEmailContainer {
+  width: 341px;
+  height: 280px;
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.sendMessageButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-coral);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.iconSend {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 38px;
+  height: 29px;
+  z-index: 2;
+}
+.sendMessageButton {
+  width: 48px;
+  height: 39px;
+  position: absolute;
+  margin: 0 !important;
+  right: 30px;
+  bottom: 7px;
+  background-color: var(--color-coral);
+  z-index: 1;
+}
+.formFields {
+  width: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  color: var(--color-gray-1300);
+}
+.india {
+  white-space: pre-wrap;
+}
+.blankLine4,
+.india {
+  margin: 0;
+}
+.p,
+.p1,
+.sairamStreetJalladampet {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine5 {
+  margin: 0;
+}
+.hongKong {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine6 {
+  margin: 0;
+}
+.thFlooramtelBuilding148 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine7 {
+  margin: 0;
+}
+.node {
+  white-space: pre-wrap;
+}
+.hrsrayssolutionsin2 {
+  text-decoration: underline;
+}
+.hrsrayssolutionsin1 {
+  color: inherit;
+  white-space: pre-wrap;
+}
+.hrsrayssolutionsin {
+  margin: 0;
+}
+.blankLine10 {
+  text-decoration: underline;
+}
+.blankLine9 {
+  color: inherit;
+  white-space: pre-wrap;
+}
+.blankLine8 {
+  margin: 0;
+}
+.node1 {
+  white-space: pre-wrap;
+}
+.wwwsrayssolutionsin2 {
+  text-decoration: underline;
+}
+.wwwsrayssolutionsin1 {
+  color: inherit;
+  white-space: pre-wrap;
+}
+.wwwsrayssolutionsin {
+  margin: 0;
+}
+.india7SairamContainer {
+  align-self: stretch;
+  height: 269px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.entypoaddressIcon {
+  height: 30px;
+  top: 29px;
+  left: 3px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addressSeparatorIcon,
+.entypoaddressIcon,
+.groupIcon,
+.mingcutephoneLineIcon {
+  width: 30px;
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.mingcutephoneLineIcon {
+  height: 33px;
+  top: 70px;
+  left: 3px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addressSeparatorIcon,
+.groupIcon {
+  height: 23.8px;
+  bottom: 69.2px;
+  left: 2px;
+}
+.groupIcon {
+  width: 22.5px;
+  height: 15.4px;
+  bottom: 26.6px;
+  left: 3px;
+}
+.addressContainer,
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addressContainer {
+  align-self: stretch;
+  position: relative;
+}
+.contactInfo {
+  width: 666px;
+  padding: var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blankLine11,
+.navigateTo {
+  margin: 0;
+}
+.aboutUs,
+.portfolio,
+.services {
+  margin: 0;
+  line-height: 44px;
+}
+.blankLine12 {
+  margin: 0;
+}
+.navigateToAboutContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  z-index: 1;
+}
+.formContainer,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+}
+.navigation {
+  width: 188px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.formContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.followUsOn {
+  width: 151px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.srays2022,
+.weWishTo {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.weWishTo {
+  align-self: stretch;
+}
+.srays2022 {
+  width: 109.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 109.5px;
+}
+.copyright {
+  width: 585.5px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  color: var(--color-snow-100);
+}
+.copyright,
+.placeholder,
+.socialLinks {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.placeholder {
+  width: 606.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.socialLinks {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-snow-200);
+}
+.footer,
+.footerContent,
+.formContainerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footerContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-46xl);
+}
+.footer,
+.formContainerParent {
+  width: 1083.8px;
+  flex-direction: row;
+  padding: 0 var(--padding-17xl);
+  box-sizing: border-box;
+}
+.formContainerParent {
+  width: 1476px;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-33xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1450px) {
+  .formContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footerContent {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .footerContent {
+    gap: var(--gap-base);
+  }
+  .formContainerParent {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .followUsOn,
+  .fullNameEmailContainer,
+  .india7SairamContainer,
+  .navigateToAboutContainer {
+    font-size: var(--font-size-base);
+  }
+}
